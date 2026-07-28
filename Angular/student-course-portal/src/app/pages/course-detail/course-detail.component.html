@@ -1,0 +1,11 @@
+<ng-container *ngIf="course">
+  <h2>{{ course.name }}</h2>
+  <p>Code: {{ course.code }}</p>
+  <p>Credits: {{ course.credits }}</p>
+  <p>Status: {{ course.gradeStatus }}</p>
+</ng-container>
+
+<h3>Enrolled Students</h3>
+<ul>
+  <li *ngFor="let student of (enrolledStudents$ | async)">{{ student.name }}</li>
+</ul>

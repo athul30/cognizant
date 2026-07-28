@@ -1,0 +1,8 @@
+<h2>My Profile</h2>
+
+<app-notification></app-notification>
+
+<h3>Enrolled Courses</h3>
+<ul>
+  <li *ngFor="let course of (enrolledCourses$ | async)">{{ course.name }} ({{ course.code }})</li>
+</ul>

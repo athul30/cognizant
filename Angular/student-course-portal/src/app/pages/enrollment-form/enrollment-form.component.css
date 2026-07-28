@@ -1,0 +1,16 @@
+form div {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+}
+
+span {
+  color: red;
+  font-size: 0.85em;
+}
+
+.success {
+  color: green;
+  margin-top: 12px;
+}

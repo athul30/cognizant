@@ -1,0 +1,18 @@
+{
+  "courses": [
+    { "id": 1, "name": "Data Structures", "code": "CS101", "credits": 4, "gradeStatus": "passed" },
+    { "id": 2, "name": "Algorithms", "code": "CS102", "credits": 3, "gradeStatus": "pending" },
+    { "id": 3, "name": "Operating Systems", "code": "CS201", "credits": 4, "gradeStatus": "failed" },
+    { "id": 4, "name": "Database Systems", "code": "CS202", "credits": 3, "gradeStatus": "passed" },
+    { "id": 5, "name": "Computer Networks", "code": "CS301", "credits": 2, "gradeStatus": "pending" }
+  ],
+  "students": [
+    { "id": 1, "name": "Asha Rao", "email": "asha.rao@example.com" },
+    { "id": 2, "name": "Vikram Singh", "email": "vikram.singh@example.com" }
+  ],
+  "enrollments": [
+    { "id": 1, "courseId": 1, "name": "Asha Rao" },
+    { "id": 2, "courseId": 1, "name": "Vikram Singh" },
+    { "id": 3, "courseId": 2, "name": "Asha Rao" }
+  ]
+}

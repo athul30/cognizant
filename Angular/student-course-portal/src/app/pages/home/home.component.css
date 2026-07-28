@@ -1,0 +1,10 @@
+.stats {
+  display: flex;
+  gap: 24px;
+  margin: 16px 0;
+  font-weight: bold;
+}
+
+.search {
+  margin-top: 16px;
+}

@@ -1,0 +1,18 @@
+<h1>{{ portalName }}</h1>
+<p>Welcome to the Student Course Portal — view your profile, browse courses, and track your progress.</p>
+
+<div class="stats">
+  <span>Courses Available: {{ coursesAvailable }}</span>
+  <span>Enrolled: 3</span>
+  <span>GPA: 3.8</span>
+</div>
+
+<app-course-summary-widget></app-course-summary-widget>
+
+<button [disabled]="!isPortalActive" (click)="onEnrollClick()">Enroll Now</button>
+<p *ngIf="message">{{ message }}</p>
+
+<div class="search">
+  <input [(ngModel)]="searchTerm" placeholder="Search courses..." />
+  <p>Searching for: {{ searchTerm }}</p>
+</div>
